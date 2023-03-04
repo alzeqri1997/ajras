@@ -9,7 +9,7 @@ import Copyright from '../../../component/Copyright'
 const Footer = () => {
   return (
     <footer className='container mt-[95px]'>
-      <div className='flex justify-between items-center mb-[32px] '>
+      <div className='flex sm-max:flex-col-reverse sm-max:gap-[60px] justify-between items-center mb-[32px] '>
         <ul className='flex items-center gap-[12px]'>
           <li><a className='bg-[#BB6BD9] bg-opacity-10 hover:bg-opacity-20 w-[48px] h-[48px] rounded-full flex justify-center items-center' href="#"><img src={instagram} alt="instagram" /></a></li>
           <li><a className='bg-[#EBEBEB] bg-opacity-50 hover:bg-opacity-100 w-[48px] h-[48px] rounded-full flex justify-center items-center' href="#"><img src={google} alt="google" /></a></li>

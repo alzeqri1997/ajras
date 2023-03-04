@@ -3,10 +3,10 @@ import avatar from '../../../assets/img/landing-page/avatar.png'
 
 const Form = () => {
   return (
-    <div className='w-[569px] relative z basis-full border pr-[28px] pl-[33px] py-[26px] rounded-t-[15px] border-secondary bg-[#FCFEFA] '>
+    <div className='w-[569px] lg-max:w-full min-[855]: relative z basis-full border pr-[28px] pl-[33px] py-[26px] rounded-t-[15px] border-secondary bg-[#FCFEFA] '>
       <div className='flex' >
         <img src={avatar} alt="avatar" />
-        <span className=' font-semibold text-[24px] leading-[24px] block w-full text-center text-primary ' >اشتر الآن وادفع لاحقًا</span>
+        <span className=' font-semibold text-[24px] sm-max:text-[18px] leading-[24px] block w-full text-center text-primary ' >اشتر الآن وادفع لاحقًا</span>
         <img src={logo} alt="avatar" />
       </div>
 
@@ -19,14 +19,14 @@ const Form = () => {
         </form>
       </div>
 
-      <div className='mt-[44px] flex gap-[16px] mb-[61px]  '>
+      <div className='mt-[44px] flex gap-[16px] mb-[61px] [@media(max-width:862px)]:mb-[30px] sm-max:flex-wrap  '>
         <div className=' bg-[#FCFFF6] w-full py-[14px] px-[16px] border rounded-[10px] border-secondary shadow-[0_4px_14px_0px_rgba(0,0,0,0.06)]'>
           <span className=' block text-[18px] leading-[24px] font-semibold text-primary '>9,000 الريال السعودي</span>
           <span className='mt-[3px] block font text-[12px] leading-[24px] text-primary'>المبنى 13</span>
           <span className='mt-[3px] block font text-[12px] leading-[24px] text-primary'>طريق أنس بن مالك ، الملقا 13338 NS</span>
           <a href="#" className='font-semibold text-[14px] leading-[24px] text-primary'>قم بالدفع</a>
         </div>
-        <div className=' py-[14px] w-full px-[16px] rounded-[10px] bg-white scale-125 origin-top-right shadow-[0_4px_94px_0px_rgba(0,0,0,0.13)]'>
+        <div className=' py-[14px] w-full px-[16px] rounded-[10px] bg-white scale-125 [@media(max-width:862px)]:scale-100 origin-top-right shadow-[0_4px_94px_0px_rgba(0,0,0,0.13)]'>
           <span className=' block text-[18px] leading-[24px] font-semibold text-primary '>9,000 الريال السعودي</span>
           <span className='mt-[3px] block font text-[12px] leading-[24px] text-primary'>المبنى 13</span>
           <span className='mt-[3px] block font text-[12px] leading-[24px] text-primary'>طريق أنس بن مالك ، الملقا 13338 NS</span>

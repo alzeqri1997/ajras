@@ -9,7 +9,7 @@ const Features = () => {
     <section className="container mt-[104px]" >
       <span className="font-semibold text-[20px] leading-[24px] block text-center text-[#24754F]" >فوائد المنصة</span>
       <h1 className="h1 text-center text-[#0E2E1F]" >أنواع مختلفة من الفوائد لدينا!</h1>
-      <div className="flex justify-between gap-[19px] mt-[60px]" >
+      <div className="flex lg-max:flex-wrap justify-between gap-[19px] mt-[60px]" >
         <Card img={featureImg1} alt={"ajras features platform"} topic={'تمكين أصحاب الأعمال من إدارة التدفق النقدي بفعالية'} />
         <Card img={featureImg2} alt={"ajras features platform"} topic={'تقليل الضغط المالي على الشركات الناجمة عن دفع دفق دقيض كبير في التأجير'} />
         <Card img={featureImg3} alt={"ajras features platform"} topic={'قلل من النفقات للبدء وتوسيع الأعمال التجارية'} />
