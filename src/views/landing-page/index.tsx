@@ -8,6 +8,7 @@ import '../../assets/css/landingPage.css'
 import BgGradient from "./component/BgGradient"
 import Features from "./component/Features"
 import Banner from "./component/Banner"
+import Footer from "./component/Footer"
 
 
 const LandingPage = () => {
@@ -18,7 +19,8 @@ const LandingPage = () => {
         <Hero />
       </BgGradient>
       <Features/>
-      <Banner/>
+      <Banner />
+      <Footer/>
     </>
   )
 }
