@@ -4,7 +4,7 @@ import Form from "./Form"
 
 const Hero = () => {
   return (
-    <section className="container mt-[60px] flex mb-[10000px] " >
+    <section className="container mt-[60px] flex" >
       <Form />
       <div className="mr-[76px] basis-full relative z-10 " >
         <h1 className="font-semibold text-[42px] leading-[67.2px] text-primary " >نحن نقدم حلولًا لمواجهة تحديات التأجير من خلال خطط الدفع المرنة والمستدامة لاستئجار الشركات</h1>

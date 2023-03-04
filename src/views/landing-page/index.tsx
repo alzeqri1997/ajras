@@ -6,6 +6,7 @@ import Hero from "./component/Hero"
 // import styles
 import '../../assets/css/landingPage.css'
 import BgGradient from "./component/BgGradient"
+import Features from "./component/Features"
 
 
 const LandingPage = () => {
@@ -15,6 +16,7 @@ const LandingPage = () => {
         <Header />
         <Hero />
       </BgGradient>
+      <Features/>
     </>
   )
 }
