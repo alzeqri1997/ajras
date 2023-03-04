@@ -9,4 +9,7 @@
     font-family: 'Inter', sans-serif;
 		-webkit-font-smoothing: antialiased;
   }
+  .h1{
+    @apply font-bold text-[44px] leading-[52.8px];
+  }
 }

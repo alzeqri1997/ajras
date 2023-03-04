@@ -7,6 +7,7 @@ import Hero from "./component/Hero"
 import '../../assets/css/landingPage.css'
 import BgGradient from "./component/BgGradient"
 import Features from "./component/Features"
+import Banner from "./component/Banner"
 
 
 const LandingPage = () => {
@@ -17,6 +18,7 @@ const LandingPage = () => {
         <Hero />
       </BgGradient>
       <Features/>
+      <Banner/>
     </>
   )
 }
