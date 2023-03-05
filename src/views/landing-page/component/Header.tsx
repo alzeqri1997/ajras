@@ -15,7 +15,7 @@ const Header = () => {
         </button>
         <ul className=' sm-max:hidden flex items-center' >
           <li className='ml-[41px]'><a href="#" className='font-semibold py-[10px] px-[32px] bg-primary text-white rounded-[35px] block ' >سجِّل رغبتك الآن</a></li>
-          <li><a href="#" className='font-semibold text-lightPrimary'>تسجيل الدخول</a></li>
+          <li><a href="#" className='font-semibold text-[#556F21]'>تسجيل الدخول</a></li>
         </ul>
         <a href="/"><img src={logoImage} alt="logo" /></a>
       </div>
